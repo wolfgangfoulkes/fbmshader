@@ -1,0 +1,30 @@
+Contents of /Users/wolfgag/cinder_0.8.5_mac/samples/shaderTest/xcode/shaderTest_Prefix.pch
+-x
+c++
+-arch
+i386
+-fretain-comments-from-system-headers
+-std=c++11
+-stdlib=libc++
+-fpascal-strings
+-O0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+-fasm-blocks
+-mmacosx-version-min=10.7
+-g
+-fvisibility-inlines-hidden
+-iquote
+-iquote
+-iquote../../../include
+-I/Users/wolfgag/cinder_0.8.5_mac/samples/shaderTest/xcode/DerivedData/shaderTest/Build/Products/Debug/include
+-I../../../boost
+-F/Users/wolfgag/cinder_0.8.5_mac/samples/shaderTest/xcode/DerivedData/shaderTest/Build/Products/Debug
+-ferror-limit=10
+-working-directory=/Users/wolfgag/cinder_0.8.5_mac/samples/shaderTest/xcode
+-Xclang
+-detailed-preprocessing-record
+i386-apple-darwin13.1.0
+"4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.38)"
+SDK_PRODUCT_BUILD_VERSION=13C64
+13C64
