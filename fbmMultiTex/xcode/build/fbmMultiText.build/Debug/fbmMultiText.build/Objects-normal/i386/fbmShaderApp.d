@@ -3,5 +3,6 @@ dependencies: \
   ../../../../cinder_0.8.5_mac/include/cinder/app/AppNative.h \
   ../../../../cinder_0.8.5_mac/include/cinder/gl/Texture.h \
   ../../../../cinder_0.8.5_mac/include/cinder/gl/GlslProg.h \
+  ../../../../cinder_0.8.5_mac/include/cinder/gl/Fbo.h \
   /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/../include/Resources.h \
   ../../../../cinder_0.8.5_mac/include/cinder/CinderResources.h

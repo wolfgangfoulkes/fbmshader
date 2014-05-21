@@ -4,8 +4,8 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Info.plist /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/Info.plist
 cCpResource Blackened-Chicken-Pre-Cooked.jpg build/Debug/fbmMultiText.app/Contents/Resources/Blackened-Chicken-Pre-Cooked.jpg
-cCpResource nuremberg.jpg build/Debug/fbmMultiText.app/Contents/Resources/nuremberg.jpg
 cCpResource multiTex2_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glsl
+cCpResource nuremberg.jpg build/Debug/fbmMultiText.app/Contents/Resources/nuremberg.jpg
 cCpResource /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/resources/CinderApp.icns build/Debug/fbmMultiText.app/Contents/Resources/CinderApp.icns
 cCpResource pixelkid.jpg build/Debug/fbmMultiText.app/Contents/Resources/pixelkid.jpg
 cCpResource fbmfire_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/fbmfire_frag.glsl
@@ -438,9 +438,9 @@ t1400452721
 s459637
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp
-c00000000537BEEEB0000000000000BA8
-t1400631019
-s2984
+c00000000537BFD470000000000000E58
+t1400634695
+s3672
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/Blackened-Chicken-Pre-Cooked.jpg
 c00000000537BDE9700000000002B1B38
@@ -453,7 +453,7 @@ t1400452721
 s1122
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app
-t1400631022
+t1400634679
 s102
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Info.plist
@@ -461,8 +461,8 @@ t1400626363
 s1496
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/MacOS/fbmMultiText
-t1400631022
-s3027132
+t1400634697
+s3105480
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/PkgInfo
 t1400626363
@@ -477,15 +477,15 @@ t1400626363
 s459637
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources/fbmTex_frag.glsl
-t1400626363
-s1631
+t1400634452
+s1544
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources/fbmfire_frag.glsl
 t1400626363
 s1730
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glsl
-t1400631079
+t1400631835
 s907
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources/multiTex_frag.glsl
@@ -510,8 +510,8 @@ t1400626363
 s143
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.o
-t1400631021
-s2138600
+t1400634696
+s2189140
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/fbmMultiText_Prefix.pch
 c0000000053793671000000000000012D
@@ -519,9 +519,9 @@ t1400452721
 s301
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/fbmTex_frag.glsl
-c00000000537BCD75000000000000065F
-t1400622453
-s1631
+c00000000537BFC540000000000000608
+t1400634452
+s1544
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/fbmfire_frag.glsl
 c00000000537BC87500000000000006C2
@@ -529,8 +529,8 @@ t1400621173
 s1730
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/multiTex2_frag.glsl
-c00000000537BEF27000000000000038B
-t1400631079
+c00000000537BF21B000000000000038B
+t1400631835
 s907
 
 N/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/multiTex_frag.glsl
@@ -4513,6 +4513,11 @@ c0000000051780B7E0000000000002552
 t1366821758
 s9554
 
+N/Users/wolfgag/cinder_0.8.5_mac/include/cinder/gl/Fbo.h
+c0000000051780B7E0000000000003CD9
+t1366821758
+s15577
+
 N/Users/wolfgag/cinder_0.8.5_mac/include/cinder/gl/GlslProg.h
 c0000000051780B7E00000000000016F7
 t1366821758
@@ -4542,11 +4547,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd1580fa7262cb941^e15e11a7262cb941^---0#1#1#--18"Check dependencies36"AE609015-D28A-420B-A110-6C432AECF797-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesaf7a54c7342cb941^795b55c7342cb941^---0#1#1#--18"Check dependencies36"F82902DD-BA6B-4887-8FDF-AF2C69AC3B44-
 
 CCompileC build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.o /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s422323820.010010
-e422323821.494540
+s422327495.343919
+e422327496.940058
 r1
 xCompileC
 xbuild/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.o
@@ -4559,10 +4564,11 @@ d/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp
 d/Users/wolfgag/cinder_0.8.5_mac/include/cinder/app/AppNative.h
 d/Users/wolfgag/cinder_0.8.5_mac/include/cinder/gl/Texture.h
 d/Users/wolfgag/cinder_0.8.5_mac/include/cinder/gl/GlslProg.h
+d/Users/wolfgag/cinder_0.8.5_mac/include/cinder/gl/Fbo.h
 d/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/include/Resources.h
 d/Users/wolfgag/cinder_0.8.5_mac/include/cinder/CinderResources.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp226"CompileC build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.o /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler7fa2026c262cb941^33de7e6d262cb941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp0000000000000000^3237"CompileC build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.o /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/fbmMultiText-generated-files.hmap -I/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/fbmMultiText-own-target-headers.hmap -I/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/fbmMultiText-all-target-headers.hmap -iquote /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/fbmMultiText-project-headers.hmap -iquote../../../../cinder_0.8.5_mac/include -iquote../include -I/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/include -I../../../../cinder_0.8.5_mac/boost -I/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/DerivedSources/i386 -I/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/DerivedSources -F/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug -include /var/folders/r7/4x0kd2d95x9bnzvqrb4zcb0m0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/fbmMultiText_Prefix-atlvjyzkypknfybhrrsymccjknph/fbmMultiText_Prefix.pch -MMD -MT dependencies -MF /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.d --serialize-diagnostics /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.dia -c /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp -o /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.o36"C61FB655-A5A7-4DF7-A46D-0D348D67DABD-
-b930E8929-038A-4055-9C0F-C0F8CD365B4B
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp226"CompileC build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.o /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerf31d58c7342cb941^75cdf0c8342cb941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp0000000000000000^3237"CompileC build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.o /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/fbmMultiText-generated-files.hmap -I/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/fbmMultiText-own-target-headers.hmap -I/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/fbmMultiText-all-target-headers.hmap -iquote /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/fbmMultiText-project-headers.hmap -iquote../../../../cinder_0.8.5_mac/include -iquote../include -I/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/include -I../../../../cinder_0.8.5_mac/boost -I/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/DerivedSources/i386 -I/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/DerivedSources -F/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug -include /var/folders/r7/4x0kd2d95x9bnzvqrb4zcb0m0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/fbmMultiText_Prefix-atlvjyzkypknfybhrrsymccjknph/fbmMultiText_Prefix.pch -MMD -MT dependencies -MF /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.d --serialize-diagnostics /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.dia -c /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/src/fbmShaderApp.cpp -o /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmShaderApp.o36"9E3F782D-DA30-440C-B91A-ADD82C4A7E63-
+bBF7F7FC1-8874-47CC-8DAE-DFC5A7B16054
 
 CCpResource /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/resources/CinderApp.icns build/Debug/fbmMultiText.app/Contents/Resources/CinderApp.icns
 s422319163.722118
@@ -4585,14 +4591,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy bu
 b0AD00D13-9ABB-463A-9086-4EE1E9D43ABC
 
 CCpResource fbmTex_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/fbmTex_frag.glsl
-s422319163.723650
-e422319163.724476
+s422327252.425742
+e422327252.426602
 r1
 xCpResource
 xfbmTex_frag.glsl
 xbuild/Debug/fbmMultiText.app/Contents/Resources/fbmTex_frag.glsl
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug/fbmMultiText.app/Contents/Resources/fbmTex_frag.glsl92"CpResource fbmTex_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/fbmTex_frag.glsl2254b93b142cb941^8577b93b142cb941^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources/fbmTex_frag.glsl003450afdeffdf42^451"CpResource fbmTex_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/fbmTex_frag.glsl    cd /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/fbmTex_frag.glsl /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources36"82D9C585-3157-43F9-A2AC-12EC7A35CE70-
-b8DE5ED9C-8D55-4233-BC48-87B6818EF0F9
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug/fbmMultiText.app/Contents/Resources/fbmTex_frag.glsl92"CpResource fbmTex_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/fbmTex_frag.glslcd066dd4332cb941^d00c6ed4332cb941^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources/fbmTex_frag.glsl0000000000000000^451"CpResource fbmTex_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/fbmTex_frag.glsl    cd /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/fbmTex_frag.glsl /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources36"56845BAA-27EA-4B04-97E1-9A5AE5A94076-
+b485B577E-9A95-44DA-BFB7-9BFA1774A0FB
 
 CCpResource fbmfire_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/fbmfire_frag.glsl
 s422319163.722534
@@ -4605,14 +4611,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy bu
 b8DE5ED9C-8D55-4233-BC48-87B6818EF0F9
 
 CCpResource multiTex2_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glsl
-s422323879.061567
-e422323879.062566
+s422324635.881574
+e422324635.882458
 r1
 xCpResource
 xmultiTex2_frag.glsl
 xbuild/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glsl
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glsl98"CpResource multiTex2_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glsl67d10fa7262cb941^66c011a7262cb941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glsl0000000000000000^460"CpResource multiTex2_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glsl    cd /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/multiTex2_frag.glsl /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources36"6DE8235A-E781-4EEF-A87F-698A44F9C3A0-
-bCDC13775-BFE4-4933-9943-4C528BFE08D8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glsl98"CpResource multiTex2_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glslf9bde19b292cb941^e529e39b292cb941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glsl0000000000000000^460"CpResource multiTex2_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/multiTex2_frag.glsl    cd /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/multiTex2_frag.glsl /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Resources36"7562E409-BAAF-4D2C-87D5-87F631DD8C5A-
+b369FEB11-255C-42EB-B981-5A1D913A39B8
 
 CCpResource multiTex_frag.glsl build/Debug/fbmMultiText.app/Contents/Resources/multiTex_frag.glsl
 s422323092.723689
@@ -4655,8 +4661,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy bu
 b8DE5ED9C-8D55-4233-BC48-87B6818EF0F9
 
 CLd /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/MacOS/fbmMultiText normal i386
-s422323821.497102
-e422323822.250032
+s422327496.942044
+e422327497.715016
 r1
 xLd
 x/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/MacOS/fbmMultiText
@@ -4678,13 +4684,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.eprintf.a
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -4714,11 +4713,18 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
@@ -4740,8 +4746,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/MacOS/fbmMultiText71"Ld build/Debug/fbmMultiText.app/Contents/MacOS/fbmMultiText normal i386a54f7f6d262cb941^7903406e262cb941^---0#0#1#--1280"Ld build/Debug/fbmMultiText.app/Contents/MacOS/fbmMultiText normal i386    cd /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug -F/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug -filelist /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmMultiText.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmMultiText_dependency_info.dat -o /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/MacOS/fbmMultiText36"BC304C5E-47F4-4C71-B49B-22F29B1A534D-
-b930E8929-038A-4055-9C0F-C0F8CD365B4B
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/MacOS/fbmMultiText71"Ld build/Debug/fbmMultiText.app/Contents/MacOS/fbmMultiText normal i3864738f1c8342cb941^280bb7c9342cb941^---0#0#1#--1280"Ld build/Debug/fbmMultiText.app/Contents/MacOS/fbmMultiText normal i386    cd /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug -F/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug -filelist /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmMultiText.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/fbmMultiText.build/Debug/fbmMultiText.build/Objects-normal/i386/fbmMultiText_dependency_info.dat -o /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/MacOS/fbmMultiText36"3A1C0E41-B9CB-43C3-BC28-52B68F292340-
+bBF7F7FC1-8874-47CC-8DAE-DFC5A7B16054
 
 CProcessInfoPlistFile /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app/Contents/Info.plist /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/Info.plist
 s422319163.720246
@@ -5563,11 +5569,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Precomp
 b8DE5ED9C-8D55-4233-BC48-87B6818EF0F9
 
 CTouch /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app
-s422323879.079187
-e422323879.082887
+s422327497.716758
+e422327497.720669
 r1
 xTouch
 x/Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app34"Touch build/Debug/fbmMultiText.app7f4f14a7262cb941^098819a7262cb941^---0#0#1#--209"Touch build/Debug/fbmMultiText.app    cd /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode    /usr/bin/touch -c /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app36"D4F42BD5-0CC1-4097-B5F4-2B8B7AB97E8C-
-bCDC13775-BFE4-4933-9943-4C528BFE08D8
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app34"Touch build/Debug/fbmMultiText.app8f8eb7c9342cb941^677fb8c9342cb941^---0#0#1#--209"Touch build/Debug/fbmMultiText.app    cd /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode    /usr/bin/touch -c /Users/wolfgag/cinderProjects/fbmshader/fbmMultiTex/xcode/build/Debug/fbmMultiText.app36"0DC623BA-111D-499A-B6EC-ED7D0370E25A-
+bBF7F7FC1-8874-47CC-8DAE-DFC5A7B16054
 

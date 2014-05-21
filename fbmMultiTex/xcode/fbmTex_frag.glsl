@@ -53,10 +53,7 @@ float fBm( vec2 vInputCoords, int nNumOctaves, float fLacunarity, float fGain ) 
 
 void main()
 {
-    const vec3 c1 = vec3(0.5, 0.5, 0.1); // Rojo oscuro.
-	const vec3 c2 = vec3(0.9, 0.0, 0.0);
-    
     vec2 position = gl_FragCoord.xy / resolution.xy;
     
-    gl_FragColor = vec4(vec3(fBm(position + time, 8, 4.0, 0.25)), 1.0);
+    gl_FragColor = vec4(vec3(fBm(position + time, octaves, lacunarity, gain)), 1.0);
 }
